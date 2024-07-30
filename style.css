@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('imagens/capa.png'),
+        linear-gradient(to right, #cb3582, #9227c3);
+    background-size: contain;
+    background-position: center;
+}
+
+/* Configurações da Navbar*/
+.navbar {
+    background-color: #00000099;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: auto;
+    width: 7rem;
+    margin: 0.7em 5em 0.7em;
+
+}
+
+.navbar-item li {
+    display: inline;
+    padding: 10em;
+    font-size: 17px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.navbar-item li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Secção 1 */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 4.5em;
+}
+
+.hero button {
+    background-color: #9227c3;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 8px 8px 8px 8px;
+    margin-left: 4.75em;
+}
+
+.hero button:hover {
+    background-color: #9227c3;
+    color: #fff;
+    opacity: 1;
+}
+
+/*  Secção 2 */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos {
+    background-color: white;
+}
+
+.infos h2,
+h3 {
+    color: #7A24F7;
+}
+
+.infos h2,h3,p {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.infos-images {
+    width: 50%;
+    margin: 2em 0 2em 2em;
+}
+
+.infos-content {
+    width: 50%;
+}
+
+.infos-images img {
+    width: 40%;
+    height: auto;
+}
+
+.space {
+    margin-bottom: 7em;
+}
+
+/* Secção 3 */
+
+
+.usability-content {
+    width: 35%;
+}
+
+.usability-images {
+    width: 40%;
+}
+
+.usability-images {
+    position: relative;
+    left: 25%;
+    top: 10em;
+    transform: translate(-40%, -40%) rotate(30deg);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.usability-images img {
+    width: 50%;
+}
+
+.color-aqua {
+    color: #9befe1;
+}
+
+.title {
+    color: white;
+}
+
+.title,h4,p {
+    margin: 1em 0 1em 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    color: white;
+}
+
+/*  Página de contato */
+
+.form-title {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+form label {
+    color: #9befe1;
+    font-size: 20px;
+}
+
+form button {
+    background-color: #9227c3;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 8px 8px 8px 8px;
+}
+
+.hero button:hover {
+    background-color: #9227c3;
+    color: #fff;
+    opacity: 1;
+}
+
+.form-space {
+    padding: 0.3em;
+}

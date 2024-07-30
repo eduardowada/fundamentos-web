@@ -4,70 +4,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify quebrado</title>
+    <title>Spotify</title>
     <link rel="icon" href="imagens/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="imagens/spotify.svg" alt="Logo spotify">
+            </div>
+
+            <div class="navbar-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <div>
-            <article>
-                <h2>O que o Spotify tem?</h2>
+        <section class="hero">
+            <div>
+                <div>
+                    <h1>Música para todos</h1>
+                </div>
+                <div>
+                    <button>Aproveite o spotify free</button>
+                    <button>Obter spotify premium</button>
+                </div>
+            </div>
+        </section>
 
-                <h3>Músicas</h3>
-                <p>
-                    O spotify tem milhoes de musicas. Escute seus sons
-                    favoritos, descubra novas musicas e reuna seus
-                    favoritos em um so lugar.
+        <section class="infos">
+            <div class="container">
+                <div class="infos-images">
+                    <img src="imagens/img1.jpg" alt="Capa de música">
+                    <img src="imagens/img2.jpg" alt="Capa de música">
+                    <img src="imagens/img3.jpg" alt="Capa de música">
+                    <img src="imagens/img4.jpg" alt="Capa de música">
+                </div>
 
-                </p>
+                <div class="infos-content">
+                    <article>
+                        <h2>O que o Spotify tem?</h2>
+                        <h3>Músicas</h3>
+                        <p>
+                            O spotify tem milhoes de musicas. Escute seus sons
+                            favoritos, descubra novas musicas e reuna seus
+                            favoritos em um so lugar.
+                        </p>
+                    </article>
 
-                <img src="imagens/img2.jpg" alt="Capa de música" width="400" height="400">
-                <img src="imagens/img3.jpg" alt="Capa de música" width="400" height="400">
-                <img src="imagens/img4.jpg" alt="Capa de música" width="400" height="400">
-            </article>
+                    <article>
+                        <h3>Playlists</h3>
+                        <p>
+                            O spotify tem milhoes de musicas. Escute seus sons
+                            favoritos, descubra novas musicas e reuna seus
+                            favoritos em um so lugar.
+                        </p>
+                    </article>
 
-            <article>
-                <h3>Playlists</h3>
-                <p>
-                    O spotify tem milhoes de musicas. Escute seus sons
-                    favoritos, descubra novas musicas e reuna seus
-                    favoritos em um so lugar.
-                </p>
+                    <article>
+                        <h3>Novos Lançamentos</h3>
+                        <p class="space">
+                            O spotify tem milhoes de musicas. Escute seus sons
+                            favoritos, descubra novas musicas e reuna seus
+                            favoritos em um so lugar.
+                        </p>
 
-                <img src="imagens/iphone1.png" alt="Capa de música">
-                <img src="imagens/iphone2.png" alt="Capa de música">
-                <img src="imagens/iphone3.png" alt="Capa de música">
-            </article>
+                    </article>
+                </div>
 
-            <article>
-                <h3>Novos Lançamentos</h3>
-                <p>
-                    O spotify tem milhoes de musicas. Escute seus sons
-                    favoritos, descubra novas musicas e reuna seus
-                    favoritos em um so lugar.
-                </p>
-        </div>
-        </article>
-        <br><br><br><br><br>
+            </div>
+        </section>
+
+        <section class="usability">
+            <div class="container">
+                <div class="usability-content">
+                    <h2 class="title">Fácil</h2>
+                    <h4 class="color-aqua">Buscar</h4>
+                    <p>
+                        Já sabe o que escutar? É só procurar e apertar o play.
+                    </p>
+                    <h4 class="color-aqua">Navegar</h4>
+                    <p>
+                        Veja os novos lançamentos, o que está bombando nas paradas e as
+                        melhores playlists para o seu momento.
+                    </p>
+                    <h4 class="color-aqua">Descobrir</h4>
+                    <p>
+                        Curta músicas novas toda segunda-feira com uma playlist
+                        personalizada para você. Ou relaxe e curta uma das rádios.
+                    </p>
+                </div>
+                <div class="usability-images">
+                    <img src="imagens/iphone1.png" alt="image iphone" />
+                    <img src="imagens/iphone2.png" alt="image iphone" />
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <div>
-            <span>Spotify &copy</span>
-            <ul type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/spotify.svg" alt="Logo Spotify"/>
+                </a>
+            </div>
+            <div>
+                <a href="#"><img src="imagens/instagram.png" alt="logo-instagram" /></a>
+                <a href="#"><img src="imagens/twitter.png" alt="logo-twitter" /></a>
+                <a href="#"><img src="imagens/facebook.png" alt="logo-facebook" /></a>
+            </div>
         </div>
     </footer>
 </body>

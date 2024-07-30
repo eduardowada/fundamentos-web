@@ -5,40 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify quebrado</title>
     <link rel="icon" href="imagens/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="imagens/spotify.svg" alt="Logo spotify">
+            </div>
+
+            <div class="navbar-item">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-    </main>
-        <div>
-            <h2>Entre em contato com a gente!</h2>
+        <div class="form-title">
+            <h2>Entre em contato com a gente!</h2><br><br><br>
         </div>
         
         <section>
-            <h2>Contato</h2>
             <form>
-                <div>
+                <div class="form-space">
                     <label for="nome">Nome:</label><br>
                     <input type="text" placeholder="Digite o seu nome."><br>
                 </div><br>
-                <div>
-                    <labbel for="email">E-mail:</labbel><br>
+                <div class="form-space">
+                    <label for="email">E-mail:</label><br>
                     <input type="email" placeholder="Digite o seu e-mail.">
                 </div><br>
-                <div>
+                <div class="form-space">
                     <label for="motivo">Motivo do contato: </label><br>
                     <textarea
                         placeholder=" Digite o motivo do seu contato"></textarea>
                 </div><br>
-                <div>
+                <div class="form-space">
                     <label for="mensagem">Mensagem: </label><br>
                     <textarea 
                         placeholder=" Digite o motivo do seu contato"></textarea>
@@ -50,24 +56,22 @@
 
         </section>
 
-        <section>
-            <div>
-                <h2>Redes sociais</h2>
-
-                <img src="imagens/facebook.png" alt="redes sociais">
-                <img src="imagens/instagram.png" alt="redes sociais">
-                <img src="imagens/twitter.png" alt="redes sociais">
-            </div>
-        </section>
+    </main>
+      
         <br><br><br><br><br>
-    <footer>
-        <div>
-            <span>Spotify &copy</span>
-            <ul type="none">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </div>
-    </footer>
+        <footer>
+            <div class="container">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/spotify.svg" alt="Logo Spotify"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><img src="imagens/instagram.png" alt="logo-instagram" /></a>
+                    <a href="#"><img src="imagens/twitter.png" alt="logo-twitter" /></a>
+                    <a href="#"><img src="imagens/facebook.png" alt="logo-facebook" /></a>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
